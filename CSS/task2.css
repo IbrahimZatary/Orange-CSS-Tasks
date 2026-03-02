@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+header{
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+header div {
+    color:#006699;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+header div span {
+    color:#fff;
+    background-color:#0077B5;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+main{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    width: 350px;
+    padding: 20px;
+    box-shadow: 0 0 5px #777;
+    height: fit-content;
+    /* position: relative; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card form input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px #777  solid;
+}
+
+.inputCon{
+    position: relative;
+}
+.show{
+    color: #0077B5;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    cursor: pointer;
+}
+
+.card a{
+    text-decoration: none;
+    color: #0077B5;
+    font-weight: bold;
+    font-size: 13px;
+    
+}
+
+.card form .singbtn{
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    background-color: #0077B5;
+    text-align: center;
+    /* padding: 10px; */
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+
+.card button{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px #777 solid;
+    border-radius: 25px;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.bi-apple{
+    font-size: 20px;
+}
+
+.lineCon{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.line {
+    width: 100%;
+    /* height: 1px; */
+    border-top: 0.1px solid #777;
+}
+.lineCon::before{
+    position: absolute;
+    top: -10px;
+    left: calc(50% - 15px);
+    content: "or";
+    color: #777;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    
+    /* margin-left: calc(); */
+}
+
+.Join{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.Join a{
+    text-decoration: none;
+    color: #0077B5;
+    font-weight: bold;
+}
+
+
+footer{
+    margin-top: 35px;
+}
+footer ul{
+    
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    color: #777;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+footer ul:first-child span{
+    color: black;
+}
+footer ul:first-child span span{
+    color: #fff;
+    background-color: black;
+}
+
+footer ul li:last-of-type{
+    /* border: 3px solid #777; */
+    border-bottom: 3px solid #777;
+    border-right: 3px solid #777;
+    rotate: 45deg;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    /* background-color: aqua; */
+}
+

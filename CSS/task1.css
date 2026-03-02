@@ -1,0 +1,24 @@
+thead tr td {
+    text-align: end;
+    font-weight: bold;
+    background-color: yellow;
+}
+
+tbody tr:first-child td:first-child {
+    background-color: pink;
+    text-align: center;
+}
+
+tbody tr:last-child td:last-child {
+    text-align: center;
+}
+
+table , td{
+    border: 1px solid black;
+}
+td{
+    /* padding: 5px 25px; */
+    /* text-align: start; */
+
+    width: 100px;
+}
