@@ -42,7 +42,6 @@ main{
     font-weight: bold;
     border-radius: 5px;
     height: 40px;
-    /* padding: 10px; */
 }
 
 .card input:focus{
@@ -53,7 +52,6 @@ main{
 
 .card label{
     color: #1ABC9C;
-    align-self: self-start; 
 }
 
 .card a{
