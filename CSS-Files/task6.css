@@ -22,5 +22,4 @@ main div{
 main div:last-of-type{
     background-color: blue;
     width: 50%;
-    /* margin-left: 10px; */
 }
